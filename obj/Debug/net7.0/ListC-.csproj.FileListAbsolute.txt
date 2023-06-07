@@ -1,0 +1,15 @@
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/bin/Debug/net7.0/ListC-
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/bin/Debug/net7.0/ListC-.deps.json
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/bin/Debug/net7.0/ListC-.runtimeconfig.json
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/bin/Debug/net7.0/ListC-.dll
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/bin/Debug/net7.0/ListC-.pdb
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.csproj.AssemblyReference.cache
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.AssemblyInfoInputs.cache
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.AssemblyInfo.cs
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.csproj.CoreCompileInputs.cache
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.dll
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/refint/ListC-.dll
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.pdb
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ListC-.genruntimeconfig.cache
+/Users/Admin/Desktop/Git/EstudoGit/JS/ListC-/obj/Debug/net7.0/ref/ListC-.dll
