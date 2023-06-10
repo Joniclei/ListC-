@@ -5,42 +5,54 @@ namespace Listando
   {
     public static void Main(string[] args)
     {
-      List<string> test = new List<string>();
+      List<Employee> test = new List<Employee>();
 
-      test.Add("teste one");
-      test.Add("bgora que e 1");
-      test.Add("ago2");
-      test.Add("kkkdgora que e 1");
-      test.Add("bbo3");
+      int id;
+      string name;
+      double salary;
 
-      foreach (string x in test)
+      Console.Write("Quantas pessoas quer adicinonar: ");
+      int qt = Convert.ToInt32(Console.ReadLine());
+      for (int i = 0; i < qt; i++)
       {
-        Console.WriteLine(x);
+        Console.Write("ID: ");
+        id = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Name: ");
+        name = Console.ReadLine();
+        Console.Write("Qual Salario: ");
+        salary = Double.Parse(Console.ReadLine());
+
+        Console.WriteLine();
+        test.Add(new Employee(id, name, salary));
       }
-      Console.WriteLine(test.Count);
 
-      int b = test.FindLastIndex(x => x[0] == 'b');
+      Console.Write("Enter the employee id that will have salary increase: ");
+      int increase = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine(b);
+      Employee employeesel = test.Find(em => em.Id == increase);
 
-      List<string> test2 = test.FindAll(x => x.Length == 4);
+      if (employeesel != null){
+        Console.Write("Enter the percentage: ");
+        int percentage = Convert.ToInt32(Console.ReadLine());
+        employeesel.IncrementSalary(percentage);
+      }else{
+        Console.WriteLine("This ID does is not exist");
+      }
 
-      Console.WriteLine("=============");
 
-      foreach (string p in test2)
+      Console.WriteLine("");
+
+      Console.WriteLine();
+
+      Console.WriteLine("Update list of employee");
+
+      Console.WriteLine();
+
+      foreach (Employee k in test)
       {
-        Console.WriteLine(p);
+        Console.WriteLine(k);
       }
 
-      test.Remove("bbo3");
-      test.Remove("teste one");
-      test.Remove("bgora que e 1");
-      test.Remove("ago2");
-      test.Add("dg ora que e 1");
-
-      foreach(string k in test){
-      Console.WriteLine(k);
-      }
 
     }
 
